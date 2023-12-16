@@ -100,7 +100,7 @@ function App() {
         </section>
        
         <div className="product" onClick={openModal}>
-            <img src= {cake2} alt="Смородина миничиз"  width="242" height="242" />
+            <img src= {cake2} alt="Смородина миничиз"   />
             <h2>Смородина миничиз</h2>
             <p class="description">Состав: ванилин, яйцо, желатин, мука миндальная, крахмал кукурузный, масло сливочное, смородина, итальянская мука твердых сортов, сливки натуральные, сыр творожный натуральный, сахарозаменитель Prebio (инулин, сукралоза, эритрит), лимон  </p>
             <p class="price">Цена: 1150 Т</p>
@@ -109,7 +109,7 @@ function App() {
         </div>
 
         <div class="product">
-            <img src={cake3} alt="Муравейник"  width="242" height="242" />
+            <img src={cake3} alt="Муравейник"   />
             <h2>Муравейник</h2>
             <p class="description">Классический вкус Муравейника, но без сахара, без глютена и без яиц.
                 Состав: Мука рисовая, мука кукурузная, мука зеленой гречки, масло кокосовое, пюре яблочное, кокосовый сахар, разрыхлитель, сливки 33%, мак, сахарозаменитель.   </p>
@@ -118,7 +118,7 @@ function App() {
         </div>
 
         <div class="product">
-            <img src={cake4} alt="ШокШок mini"  width="242" height="242" />
+            <img src={cake4} alt="ШокШок mini"   />
             <h2>ШокШок mini</h2>
             <p class="description">яйцо, тёмный шоколад без сахара, сливочное масло, какао порошок, сахзам (инулин, эритрит, сукралоза), молоко, кофе в зёрнах, сливки 33%, кокосовый сахар (ГИ38)   </p>
             <p class="price">Цена: 1600 Т</p>
@@ -126,7 +126,7 @@ function App() {
         </div>
 
         <div class="product">
-            <img src={cake5} alt="Картошка"  width="242" height="242" />
+            <img src={cake5} alt="Картошка"   />
             <h2>Картошка</h2>
             <p class="description">Состав: яйца, мука твердых сортов пшеницы, какао, разрыхлитель, сахарозаменитель, масло сливочное, молоко, кокосовое масло, сухое молоко, сливки 33%, шоколад горький, грецкий орех </p>
             <p class="price">Цена: 1300 Т</p>
@@ -134,7 +134,7 @@ function App() {
         </div>
         <div class="product">
             <img src={cake6} alt="Кокосовая тарталетка
-            "  width="242" height="242" />
+            "   />
             <h2>Кокосовая тарталетка</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1350 Т</p>
@@ -142,287 +142,287 @@ function App() {
         </div>
         <div class="product">
             <img src={cake7} alt="Сникерс тарт
-            "  width="242" height="242" />
+            "   />
             <h2>Сникерс тарт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1400 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake8} alt="Эскимо Чиз"  width="242" height="242" />
+            <img src={cake8} alt="Эскимо Чиз"   />
             <h2>Эскимо Чиз</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1100 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake9} alt="Эскимо Брауни"  width="242" height="242" />
+            <img src={cake9} alt="Эскимо Брауни"   />
             <h2>Эскимо Брауни</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1300 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake10} alt="Наполеон"  width="242" height="242" />
+            <img src={cake10} alt="Наполеон"   />
             <h2>Наполеон</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1200 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake11} alt="Медовик"  width="242" height="242" />
+            <img src={cake11} alt="Медовик"   />
             <h2>Медовик</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1100 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake12} alt="ШокШок торт"  width="242" height="242" />
+            <img src={cake12} alt="ШокШок торт"   />
             <h2>ШокШок торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 13 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake13} alt="Наполеон торт"  width="242" height="242" />
+            <img src={cake13} alt="Наполеон торт"   />
             <h2>Наполеон торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 9 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake14} alt="Медовик торт"  width="242" height="242" />
+            <img src={cake14} alt="Медовик торт"   />
             <h2>Медовик торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 8 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake15} alt="Джусии торт"  width="242" height="242" />
+            <img src={cake15} alt="Джусии торт"   />
             <h2>Джусии торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 18 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake16} alt="Мокко торт"  width="242" height="242" />
+            <img src={cake16} alt="Мокко торт"   />
             <h2>Мокко торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 8 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake17} alt="Муравейник торт"  width="242" height="242" />
+            <img src={cake17} alt="Муравейник торт"   />
             <h2>Муравейник торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 9 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake18} alt="Черничный торт"  width="242" height="242" />
+            <img src={cake18} alt="Черничный торт"   />
             <h2>Черничный торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 14 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake19} alt="ЧизСердце торт"  width="242" height="242" />
+            <img src={cake19} alt="ЧизСердце торт"   />
             <h2>ЧизСердце торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 13 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake20} alt="Испанский чизкейк"  width="242" height="242" />
+            <img src={cake20} alt="Испанский чизкейк"   />
             <h2>Испанский чизкейк</h2>
             <p class="description"> </p>
             <p class="price">Цена: 9 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake21} alt="Йогуртовый торт"  width="242" height="242" />
+            <img src={cake21} alt="Йогуртовый торт"   />
             <h2>Йогуртовый торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 12 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake22} alt="ЧизЧернослив торт"  width="242" height="242" />
+            <img src={cake22} alt="ЧизЧернослив торт"   />
             <h2>ЧизЧернослив торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 14 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake23} alt="Птичье молоко торт"  width="242" height="242" />
+            <img src={cake23} alt="Птичье молоко торт"   />
             <h2>Птичье молоко торт</h2>
             <p class="description"> </p>
             <p class="price">Цена: 7 200 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake24} alt="торт эстерхази"  width="242" height="242" />
+            <img src={cake24} alt="торт эстерхази"   />
             <h2>торт эстерхази</h2>
             <p class="description"> </p>
             <p class="price">Цена: 9 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake25} alt="наполеон торт с грушей и намелакой"  width="242" height="242" />
+            <img src={cake25} alt="наполеон торт с грушей и намелакой"   />
             <h2>наполеон торт с грушей и намелакой</h2>
             <p class="description"> </p>
             <p class="price">Цена: 8 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake26} alt="Овсянки"  width="242" height="242" />
+            <img src={cake26} alt="Овсянки"   />
             <h2>Овсянки</h2>
             <p class="description"> </p>
             <p class="price">Цена: 3 600 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake27} alt="Анзак австралийское печенье"  width="242" height="242" />
+            <img src={cake27} alt="Анзак австралийское печенье"   />
             <h2>Анзак австралийское печенье</h2>
             <p class="description"> </p>
             <p class="price">Цена: 4 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake28} alt="Пряники полбяные с черносливом"  width="242" height="242" />
+            <img src={cake28} alt="Пряники полбяные с черносливом"   />
             <h2>КарПряники полбяные с черносливом</h2>
             <p class="description"> </p>
             <p class="price">Цена: 3 700 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake29} alt="Баунти конфеты"  width="242" height="242" />
+            <img src={cake29} alt="Баунти конфеты"   />
             <h2>Баунти конфеты</h2>
             <p class="description"> </p>
             <p class="price">Цена: 2 350 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake30} alt="Карамелька миничиз"  width="242" height="242" />
+            <img src={cake30} alt="Карамелька миничиз"   />
             <h2>Карамелька миничиз</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 350 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake31} alt="Вишня миничиз"  width="242" height="242" />
+            <img src={cake31} alt="Вишня миничиз"   />
             <h2>Вишня миничиз</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 150 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake32} alt="Шоколад миничиз"  width="242" height="242" />
+            <img src={cake32} alt="Шоколад миничиз"   />
             <h2>Шоколад миничиз</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 350 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake33} alt="Ягодный лайт мини"  width="242" height="242" />
+            <img src={cake33} alt="Ягодный лайт мини"   />
             <h2>Ягодный лайт мини</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 200 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake34} alt="Малина миничиз"  width="242" height="242" />
+            <img src={cake34} alt="Малина миничиз"   />
             <h2>Малина миничиз</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 150 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake35} alt="Персиковый наркотик"  width="242" height="242" />
+            <img src={cake35} alt="Персиковый наркотик"   />
             <h2>Персиковый наркотик</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 400 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake36} alt="Птичье Кайф"  width="242" height="242" />
+            <img src={cake36} alt="Птичье Кайф"   />
             <h2>Птичье Кайф</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 200 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake37} alt="Самса курица + тыква"  width="242" height="242" />
+            <img src={cake37} alt="Самса курица + тыква"   />
             <h2>Самса курица + тыква</h2>
             <p class="description"> </p>
             <p class="price">Цена: 900 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake38} alt="Киш Жульен"  width="242" height="242" />
+            <img src={cake38} alt="Киш Жульен"   />
             <h2>Киш Жульен</h2>
             <p class="description"> </p>
             <p class="price">Цена: 10 500 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake39} alt="Сырники"  width="242" height="242" />
+            <img src={cake39} alt="Сырники"   />
             <h2>Сырники</h2>
             <p class="description"> </p>
             <p class="price">Цена: 3 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake40} alt="киш Жульен малыш"  width="242" height="242" />
+            <img src={cake40} alt="киш Жульен малыш"   />
             <h2>киш Жульен малыш</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 600 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake41} alt="Киш семга брокколи"  width="242" height="242" />
+            <img src={cake41} alt="Киш семга брокколи"   />
             <h2>Киш семга брокколи</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 900 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake42} alt="Брауни вишня"  width="242" height="242" />
+            <img src={cake42} alt="Брауни вишня"   />
             <h2>Брауни вишня</h2>
             <p class="description"> </p>
             <p class="price">Цена: 7 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake43} alt="тарт цитрусовый"  width="242" height="242" />
+            <img src={cake43} alt="тарт цитрусовый"   />
             <h2>тарт цитрусовый</h2>
             <p class="description"> </p>
             <p class="price">Цена: 7 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake44} alt="персиковый рай"  width="242" height="242" />
+            <img src={cake44} alt="персиковый рай"   />
             <h2>персиковый рай</h2>
             <p class="description"> </p>
             <p class="price">Цена: 9 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake45} alt="Шу булочка"  width="242" height="242" />
+            <img src={cake45} alt="Шу булочка"   />
             <h2>Шу булочка</h2>
             <p class="description"> </p>
             <p class="price">Цена: 1 900 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake46} alt="Ягодный лайт рулет"  width="242" height="242" />
+            <img src={cake46} alt="Ягодный лайт рулет"   />
             <h2>Ягодный лайт рулет</h2>
             <p class="description"> </p>
             <p class="price">Цена: 9 000 Т</p>
             <button>Добавить в корзину</button>
         </div>
         <div class="product">
-            <img src={cake47} alt="штоллен творожный"  width="242" height="242" />
+            <img src={cake47} alt="штоллен творожный"   />
             <h2>штоллен творожный</h2>
             <p class="description"> </p>
             <p class="price">Цена: 5 000 Т</p>
