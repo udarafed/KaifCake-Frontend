@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import Modal from './Modal'; // Подставь правильный путь к компоненту Modal
 
-import logo from './logo.svg';
 import './App.css';
 import cake1 from './images/cake1.jpg'
 import cake2 from './images/cake2.jpg'
