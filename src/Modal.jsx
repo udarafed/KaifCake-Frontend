@@ -1,15 +1,17 @@
-// Modal.jsx
 import React from 'react';
+import './Modal.css';
+import './App.js';
 
-const Modal = ({ isOpen, onClose,cake2 }) => {
+
+  const Modal = ({isOpen,onClose,product}) => {
   return (
     <div className={`modal ${isOpen ? 'open' : ''}`} onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <span className="close" onClick={onClose}>&times;</span>
-        <img src= {cake2} alt="Смородина миничиз"  width="242" height="242" />
-        <h2>Смородина миничиз</h2>
-        <p class="description">Состав: ванилин, яйцо, желатин, мука миндальная, крахмал кукурузный, масло сливочное, смородина, итальянская мука твердых сортов, сливки натуральные, сыр творожный натуральный, сахарозаменитель Prebio (инулин, сукралоза, эритрит), лимон  </p>
-        <p class="price">Цена: 1150 Т</p>
+        <img src={product.image} alt={product.alt} width="242" height="242" />
+        <h2>{product.name}</h2>
+        <p className="description">  {product.compound}</p>
+        <p className="price">{product.price}</p>
       </div>
     </div>
   );
