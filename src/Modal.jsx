@@ -14,12 +14,12 @@ import './App.js';
                     <img src={product.image} alt={product.alt} width="242" height="242" />
                     <h2>{product.name}</h2>
                     <p className="description">  {product.compound}</p>
-                    <p className="price">{product.price}</p>
+                    <p className="price">{product.price.toLocaleString('ru-RU')} ₸</p>
                   </div>
                 </div>
             )}
           </>
       );
-};
+};  
 
 export default Modal;

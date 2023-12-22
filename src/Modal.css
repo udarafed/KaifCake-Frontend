@@ -10,48 +10,55 @@
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.1);
-  }
-  
-  .modal.open {
+}
+
+.modal.open {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .modal-content {
-    position: relative;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column; /* Добавленная строка */
+    align-items: center;
     padding: 20px;
     width: 70%;
     max-width: 843px;
-    background-color: #fefefe;
+    background-color: #1d1b20;
     border-radius: 10px;
-  }
-  
-  .close {
+}
+
+.close {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 30px;
     color: #aaa;
     cursor: pointer;
-  }
-  
-  .close:hover {
+}
+
+.close:hover {
     color: #555;
-  }
-  
-  .modal-image-container {
-    margin-bottom: 20px;
-  }
-  
-  .modal-image {
-    width: 100%;
+}
+
+/* Modal.css */
+
+.modal-info {
+    display: flex;
+    align-items: center;
+}
+
+.modal-image-container {
+    margin-right: 20px; /* Отступ справа от изображения */
+}
+
+.modal-image {
+    width: 258px; /* Фиксированный размер изображения */
     height: auto;
-  }
-  
-  .modal-details {
-    padding: 0 20px;
-  }
-  
-  /* Add any additional styling as needed */
-  
+}
+
+.modal-details {
+    flex-grow: 1;
+}
+
